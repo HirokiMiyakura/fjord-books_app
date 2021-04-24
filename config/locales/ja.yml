@@ -1,25 +1,24 @@
 ja:
-  book:
-    Book_created: "本の登録に成功いたしました。"
-    Book_updated: "本の更新に成功いたしました。"
-    Book_destroyed: "本の削除に成功いたしました。"
-  books:
-    index:
+  views:
+    common:
       show: "表示"
       edit: "編集"
       destroy: "削除"
+      back: "戻る"
+  books:
+    index:
       confirm: "本当によろしいですか？"
       create_new_book: "本を登録"
     edit:
       editing_book: "本を編集"
-      show: "表示"
-      back: "戻る"
-    show:
-      edit: "編集"
-      back: "戻る"
     new:
       new_book: "新規登録"
-      back: "戻る"
+    create:
+      success: "本の登録に成功いたしました。"
+    update:
+      success: "本の更新に成功いたしました。"
+    destroy:
+      success: "本の削除に成功いたしました。"
   activerecord:
     models:
       book: 本

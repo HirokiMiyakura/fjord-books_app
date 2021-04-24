@@ -1,25 +1,24 @@
 en:
-  book:
-    Book_created: "Book was successfully created."
-    Book_updated: "Book was successfully updated."
-    Book_destroyed: "Book was successfully destroyed."
-  books:
-    index:
+  views:
+    common:
       show: "Show"
       edit: "Edit"
       destroy: "Destroy"
+      back: "Back"
+  books:
+    index:
       confirm: "Are you sure?"
       create_new_book: "new book"
     edit:
       editing_book: "edit book"
-      show: "Show"
-      back: "Back"
-    show:
-      edit: "Edit"
-      back: "Back"
     new:
       new_book: "New Book"
-      back: "Back"
+    create:
+      success: "Book was successfully created."
+    update:
+      success: "Book was successfully updated."
+    destroy:
+      success: "Book was successfully destroyed."
   activerecord:
     models:
       book: book
