@@ -8,11 +8,11 @@ en:
   books:
     index:
       confirm: "Are you sure?"
-      create_new_book: "new book"
+      new_book: "new book"
     edit:
-      editing_book: "edit book"
+      title: "edit book"
     new:
-      new_book: "New Book"
+      title: "New Book"
     create:
       success: "Book was successfully created."
     update:

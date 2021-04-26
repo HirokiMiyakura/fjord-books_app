@@ -8,11 +8,11 @@ ja:
   books:
     index:
       confirm: "本当によろしいですか？"
-      create_new_book: "本を登録"
+      new_book: "本を登録"
     edit:
-      editing_book: "本を編集"
+      title: "本を編集"
     new:
-      new_book: "新規登録"
+      title: "新規登録"
     create:
       success: "本の登録に成功いたしました。"
     update:
