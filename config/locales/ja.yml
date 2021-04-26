@@ -1,0 +1,30 @@
+ja:
+  views:
+    common:
+      show: "表示"
+      edit: "編集"
+      destroy: "削除"
+      back: "戻る"
+  books:
+    index:
+      confirm: "本当によろしいですか？"
+      new_book: "本を登録"
+    edit:
+      title: "本を編集"
+    new:
+      title: "新規登録"
+    create:
+      success: "本の登録に成功いたしました。"
+    update:
+      success: "本の更新に成功いたしました。"
+    destroy:
+      success: "本の削除に成功いたしました。"
+  activerecord:
+    models:
+      book: 本
+    attributes:
+      book:
+        title: タイトル
+        memo: メモ
+        author: 著者
+        picture: 写真
