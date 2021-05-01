@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: "users#index"
+  root 'homes#index'
   devise_for :users
 
   resources :books
