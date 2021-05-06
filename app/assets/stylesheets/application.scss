@@ -31,3 +31,11 @@ a:hover {
 .alert-alert {
   @extend .alert-danger;
 }
+
+.first,
+.page,
+.prev,
+.next {
+  display: block;
+  padding-right: 1em;
+}

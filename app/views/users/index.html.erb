@@ -1,0 +1,17 @@
+<table class="table mt-5">
+  <thead>
+  <tr>
+    <th>メールアドレス</th>
+    <th>詳細</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.email %></td>
+      <td><%= link_to 'ユーザー詳細へ', user %></td>
+    </tr>
+  <% end %>
+  <%= paginate @users %>
+  </tbody>
+</table>
