@@ -7,6 +7,6 @@ class ApplicationController < ActionController::Base
   protected
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:create, keys: %i[postal address description])
+    devise_parameter_sanitizer.permit(:account_update, keys: %i[postal address description])
   end
 end

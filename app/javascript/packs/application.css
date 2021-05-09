@@ -1,0 +1,16 @@
+a:hover {
+    background: transparent!important;
+}
+
+.mw-md {
+    max-width: 576px;
+}
+
+.first,
+.page,
+.prev,
+.next {
+    display: block;
+    padding-right: 1em;
+}
+

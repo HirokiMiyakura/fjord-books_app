@@ -6,6 +6,7 @@
 
 /test
 /db/migrate
+/controllers/users/*
 
 # Ignore bundler config.
 /.bundle

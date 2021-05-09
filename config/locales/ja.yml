@@ -226,4 +226,18 @@ ja:
       notice_create: "%{name}が作成されました。"
       notice_update: "%{name}が更新されました。"
       notice_destroy: "%{name}が削除されました。"
-      
+  users:
+    index:
+      mailaddress: 'メールアドレス'
+      details: '詳細'
+      to_user: 'ユーザー詳細へ'
+    show:
+      title: 'アカウント詳細'
+    registrations:
+      edit:
+        title: 'アカウント編集'
+        cancel: '更新をやめる'
+        back: '戻る'
+        enter_your_password: '(変更のために現在のパスワードをご入力ください)'
+        leave_blank_unless_change_password: '(パスワードの変更が必要ない場合は空で構いません)'
+        minimum_length_alert: '文字以上でお願いします'
