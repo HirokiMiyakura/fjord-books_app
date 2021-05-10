@@ -5,11 +5,17 @@ ja:
       user: ユーザー
     attributes:
       book:
+        index: 本を見る
         author: 著者  #g
         memo: メモ  #g
         picture: 画像  #g
         title: 題名  #g
       user:
+        index: ユーザー一覧
+        edit: アカウント編集
+        destroy: ログアウト
+        new: 新規登録
+        create: ログイン
         postal: 郵便番号
         address: 住所
         description: 自己紹介

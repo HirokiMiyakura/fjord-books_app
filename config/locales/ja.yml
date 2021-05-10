@@ -228,7 +228,6 @@ ja:
       notice_destroy: "%{name}が削除されました。"
   users:
     index:
-      mailaddress: 'メールアドレス'
       details: '詳細'
       to_user: 'ユーザー詳細へ'
     show:
