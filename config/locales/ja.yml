@@ -215,6 +215,14 @@ ja:
       delete_confirm: よろしいですか？
       title_new: "%{name}の新規作成"
       title_edit: "%{name}の編集"
+      users:
+        index: ユーザー一覧
+        edit: アカウント編集
+        destroy: ログアウト
+        new: 新規登録
+        create: ログイン
+      books:
+        index: 本一覧
     pagination:
       first: '最初'
       last: '最後'
@@ -232,6 +240,7 @@ ja:
       to_user: 'ユーザー詳細へ'
     show:
       title: 'アカウント詳細'
+  devise:
     registrations:
       edit:
         title: 'アカウント編集'
