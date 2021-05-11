@@ -215,6 +215,14 @@ ja:
       delete_confirm: よろしいですか？
       title_new: "%{name}の新規作成"
       title_edit: "%{name}の編集"
+      users:
+        index: ユーザー一覧
+        edit: アカウント編集
+        destroy: ログアウト
+        new: 新規登録
+        create: ログイン
+      books:
+        index: 本一覧
     pagination:
       first: '最初'
       last: '最後'
@@ -226,3 +234,18 @@ ja:
       notice_create: "%{name}が作成されました。"
       notice_update: "%{name}が更新されました。"
       notice_destroy: "%{name}が削除されました。"
+  users:
+    index:
+      details: '詳細'
+      to_user: 'ユーザー詳細へ'
+    show:
+      title: 'アカウント詳細'
+  devise:
+    registrations:
+      edit:
+        title: 'アカウント編集'
+        cancel: '更新をやめる'
+        back: '戻る'
+        enter_your_password: '(変更のために現在のパスワードをご入力ください)'
+        leave_blank_unless_change_password: '(パスワードの変更が必要ない場合は空で構いません)'
+        minimum_length_alert: '文字以上でお願いします'

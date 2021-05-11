@@ -1,0 +1,17 @@
+<table class="table mt-5">
+  <thead>
+  <tr>
+    <th><%= User.human_attribute_name(:email) %></th>
+    <th><%= t('.details') %></th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.email %></td>
+      <td><%= link_to t('.to_user'), user %></td>
+    </tr>
+  <% end %>
+  <%= paginate @users %>
+  </tbody>
+</table>

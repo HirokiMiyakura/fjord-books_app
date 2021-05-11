@@ -1,0 +1,10 @@
+<h1><%= t('.title') %></h1>
+
+<h3 class="mt-5"><%= User.human_attribute_name(:email) %></h3>
+<%= @user.email %>
+<h3 class="mt-1"><%= User.human_attribute_name(:postal) %></h3>
+<%= @user.postal %>
+<h3 class="mt-1"><%= User.human_attribute_name(:address) %></h3>
+<%= @user.address %>
+<h3 class="mt-1"><%= User.human_attribute_name(:description) %></h3>
+<%= @user.description %>
