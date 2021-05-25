@@ -11,6 +11,11 @@
 </p>
 
 <p>
+  <strong>写真</strong>
+  <%= image_tag @user.avatar, size: '320' %>
+</p>
+
+<p>
   <strong><%= User.human_attribute_name(:postal_code) %>:</strong>
   <%= @user.postal_code %>
 </p>

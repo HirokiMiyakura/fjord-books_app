@@ -2,6 +2,8 @@
 
 class User < ApplicationRecord
   has_one_attached :avatar
+  validates :avatar, blob: { content_type: ['image/png', 'image/jpg', 'image/gif'] }
+
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable,
          :omniauthable, omniauth_providers: %i[github]

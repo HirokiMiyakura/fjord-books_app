@@ -17,3 +17,18 @@
   <%= f.label :self_introduction %>
   <%= f.text_area :self_introduction %>
 </div>
+
+<% if @user.avatar.attached? %>
+  <p><%= t('.current_image') %></p>
+  <td><%= image_tag @user.avatar, class: 'user-avatar' %></td>
+  <p><%= t('.change_image') %></p>
+  <div class="field">
+    <%= f.label :avatar %>
+    <%= f.file_field :avatar %>
+  </div>
+<% else %>
+  <div class="field">
+    <%= f.label :avatar %>
+    <%= f.file_field :avatar %>
+  </div>
+<% end %>
