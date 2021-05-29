@@ -244,7 +244,3 @@ ja:
   users:
     index:
       image_yet: 'まだ画像が登録されていません'
-#    registrations:
-#      edit:
-#        current_image: "現在の写真"
-#        change_image: "写真を変更したい場合はこちらから"
