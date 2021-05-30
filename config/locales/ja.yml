@@ -238,3 +238,9 @@ ja:
     registrations:
       edit:
         title: "アカウント編集"
+      profile_fields:
+        current_image: "現在の写真"
+        change_image: "写真を変更したい場合はこちらから"
+  users:
+    index:
+      image_yet: 'まだ画像が登録されていません'
